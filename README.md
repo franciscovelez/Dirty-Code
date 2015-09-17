@@ -40,7 +40,7 @@
 
   ## Functions
   
-  - [2.1](#2.1) <a name='2.1'></a> **Style**: Here is an example in pseudocode.
+  - [2.1](#2.1) <a name='2.1'></a> **Style**: Here is an example with functions.
  
 
   ```javascript

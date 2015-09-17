@@ -45,7 +45,7 @@
 
   ```javascript
   //Good, you have to be professional about your job and code.
-  function showMessage(message){
+  function showMessage(message)
   {
       if(message != null){
           show(message);
@@ -58,7 +58,7 @@
 
   ```javascript
   //Bad; Do not clean the code up
-  function showMessage(message){
+  function showMessage(message)
   {
       if(message == null){
           message = defaultMessage;

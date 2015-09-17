@@ -37,3 +37,32 @@
     //good
     var il = 99;
     ```
+
+  ## Functions
+  
+  - [2.1](#2.1) <a name='2.1'></a> **Style**: Here is an example in pseudocode.
+ 
+
+  ```javascript
+  //Good, you have to be professional about your job and code.
+  function showMessage(message){
+  {
+      if(message != null){
+          show(message);
+      }
+      else{
+          show(defaultMessage); //This is the default action to do
+      }
+  }
+  ```
+
+  ```javascript
+  //Bad; Do not clean the code up
+  function showMessage(message){
+  {
+      if(message == null){
+          message = defaultMessage;
+      }
+      show(message);
+  }
+  ```
